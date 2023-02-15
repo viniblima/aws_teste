@@ -1,5 +1,7 @@
 FROM golang
 
+LABEL Osama Elmashad <elmashad285@gmail.com>
+
 # Create app folder 
 RUN mkdir /app
 # Copy our file in the host contianer to our contianer
